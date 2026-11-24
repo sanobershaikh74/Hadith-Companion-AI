@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Hadith Companion record",
+  "type": "object",
+  "required": ["id", "collection", "reference", "language", "text", "topics", "source_url"],
+  "properties": {
+    "id": {"type": "string", "minLength": 1},
+    "collection": {"type": "string", "minLength": 1},
+    "reference": {"type": "string", "minLength": 1},
+    "language": {"type": "string", "minLength": 1},
+    "text": {"type": "string", "minLength": 1},
+    "topics": {"type": "array", "items": {"type": "string"}},
+    "source_url": {"type": "string", "format": "uri"},
+    "grade": {"type": "string"},
+    "translation_credit": {"type": "string"},
+    "edition": {"type": "string"},
+    "reviewed_by": {"type": "string"},
+    "review_date": {"type": "string", "format": "date"}
+  },
+  "additionalProperties": false
+}

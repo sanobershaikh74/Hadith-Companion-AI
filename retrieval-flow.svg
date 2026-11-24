@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="300" viewBox="0 0 1100 300" role="img" aria-labelledby="title desc">
+<title id="title">Hadith Companion AI retrieval workflow</title>
+<desc id="desc">User query and curated JSON records flow through validation, TF-IDF vectorization, cosine similarity ranking, and source-grounded results.</desc>
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#172554"/><stop offset="1" stop-color="#0f766e"/></linearGradient><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0 L9 3 L0 6 Z" fill="#64748b"/></marker></defs>
+<rect width="1100" height="300" rx="22" fill="#f8fafc"/>
+<text x="40" y="42" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#0f172a">RETRIEVAL PIPELINE</text>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<g><rect x="35" y="95" width="150" height="105" rx="14" fill="#e0e7ff" stroke="#818cf8"/><text x="110" y="135" font-size="15" font-weight="700" fill="#312e81">User query</text><text x="110" y="160" font-size="12" fill="#4338ca">Topic / situation</text></g>
+<g><rect x="225" y="95" width="150" height="105" rx="14" fill="#dbeafe" stroke="#60a5fa"/><text x="300" y="135" font-size="15" font-weight="700" fill="#1e3a8a">Curated data</text><text x="300" y="160" font-size="12" fill="#1d4ed8">JSON records</text></g>
+<g><rect x="415" y="95" width="150" height="105" rx="14" fill="#ccfbf1" stroke="#2dd4bf"/><text x="490" y="135" font-size="15" font-weight="700" fill="#134e4a">Validation</text><text x="490" y="160" font-size="12" fill="#0f766e">Fields + IDs</text></g>
+<g><rect x="605" y="95" width="150" height="105" rx="14" fill="#fef3c7" stroke="#fbbf24"/><text x="680" y="135" font-size="15" font-weight="700" fill="#78350f">TF-IDF</text><text x="680" y="160" font-size="12" fill="#92400e">Vectorization</text></g>
+<g><rect x="795" y="95" width="125" height="105" rx="14" fill="#ffedd5" stroke="#fb923c"/><text x="857" y="135" font-size="15" font-weight="700" fill="#7c2d12">Ranking</text><text x="857" y="160" font-size="12" fill="#c2410c">Cosine score</text></g>
+<g><rect x="960" y="95" width="110" height="105" rx="14" fill="url(#g)"/><text x="1015" y="132" font-size="14" font-weight="700" fill="#fff">Results</text><text x="1015" y="157" font-size="11" fill="#e0f2fe">Ref + source</text></g>
+</g>
+<g stroke="#64748b" stroke-width="2.5" fill="none" marker-end="url(#arrow)"><path d="M185 147 H218"/><path d="M375 147 H408"/><path d="M565 147 H598"/><path d="M755 147 H788"/><path d="M920 147 H953"/></g>
+<text x="550" y="250" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#475569">Relevance ranking only — not authentication, interpretation, or a religious ruling</text>
+</svg>
